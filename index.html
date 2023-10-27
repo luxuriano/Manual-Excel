@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual Excel</title>
+    <link rel="stylesheet" href="estilos.css"/>
+    <script src="main.js"></script>
+</head>
+<body>
+    <h2>-Pradolini francisco</h2>
+    <h2>-Prof:Diego</h2>
+    <h2>-3°B</h2>
+    <img src="exel.jpg">
+    <h1 id="dad">Manual de Excel</h1>
+    <ul>
+        <li><a href="#seccion1">Conceptos de Excel</a></li>
+        <br>
+        <li><a href="#seccion2">Otros conceptos básicos</a></li>
+        <br>
+        <li><a href="#seccion3">operaciones de calculo en excel</a></li>
+        <br>
+        <li><a href="#seccion4">calculos combinados</a></li>
+        <br>
+        <li><a href="#seccion5">Orden de prioridad </a></li>
+        <br>
+        <li><a href="#seccion6">Ejercicios de calculo</a></li>
+        <br>
+        <li><a href="#seccion7">Referencia absoluta</a></li>
+        <br>
+        <li><a href="#seccion8">Formatos</a></li>
+        <br>
+        <li><a href="#seccion9">Formatos condicionales</a></li>
+        <br>
+        <li><a href="#seccion10">Funciones</a></li>
+        <br>
+        <li><a href="#seccion11">Funciones Logicas: Y/O</a></li>
+        <br>
+        <li><a href="#seccion12">Funciones de Busqueda</a></li>
+    </ul>
+    <br>
+    <h2 id="seccion1">Conceptos básicos de Excel</h2>
+    <p>Los documentos de Excel se denominan “libros” y están divididos en “hojas”. La hoja de cálculo 
+        es el espacio de trabajo. Excel 2007 comparte la misma interfaz de otros programas de la suite 
+        Office 2007, por lo tanto, encontraremos el Botón de Office y la Cinta de opciones, 
+        organizada en fichas y grupos.</p>
+    <img src="excel.png">
+    <p>1) Filas: espacios horizontales de la hoja de cálculo. Se identifican con números. Cada hoja 
+        de cálculo de Excel 2007 tiene 1.048.576 filas.</p>
+    <p>2) Celda: es la unidad de trabajo de la hoja de cálculo. Es la intersección de una columna 
+        con una fila. Se identifica con la letra de la columna y el número de la fila, como por 
+        ejemplo, A1.</p>
+    <p>3) Cuadro de nombres: muestra el nombre de la celda activa.</p>
+    <p>4) Columnas: espacios verticales de la hoja de cálculo. Se identifican con letras. Cada hoja 
+        de cálculo de Excel 2007 tiene 16.384 columnas.</p>
+    <p>5) Barra de fórmulas: muestra el contenido de la celda activa (celda seleccionada). A la 
+        izquierda de la Barra de fórmulas se encuentra un asistente para insertar funciones.</p>
+    <p>6) Controlador de relleno: es un pequeño punto de color negro que se encuentra en la 
+        esquina inferior derecha de la celda seleccionada. Cuando acercamos el mouse al 
+        controlador de relleno, el puntero toma la forma de un cruz negra fina y pequeña. El 
+        controlador de relleno es muy útil para copiar fórmulas y rellenar rápidamente datos en 
+        una planilla.</p>
+    <p>7) Etiquetas: las etiquetas identifican a las hojas de cálculo. Si hacemos clic con el botón 
+        secundario del mouse sobre la etiqueta podemos cambiarle el nombre, el color, y otras 
+        acciones que veremos más adelante.</p>
+    <p>8) Insertar hoja de cálculo: de forma predeterminada, Excel 2007 presenta 3 hojas de 
+        cálculo, pero desde este ícono podemos agregar más.</p>
+    <h2 id="seccion2">Otros conceptos básicos</h2>
+    <p>-Rango de celdas:</p>
+    <p>cuando seleccionamos más de una celda hablamos de un “rango”, por 
+        ejemplo, A1:B5 significa que estamos afectando un rango formado por 10 celdas, ya que los dos puntos (:) significan “hasta”. En cambio, si nombramos a un rango A1;B5, afectamos solo 2 celdas (A1 y B5), ya que el punto y coma (;) significa “y”. Más adelante, cuando veamos funciones, comprenderemos mejor este concepto.</p>
+    <p>Alineación predeterminada de texto y números:</p>
+    <p>de forma predeterminada, los 
+        caracteres de texto se alinean a la izquierda, y los números a la derecha. Excel reconoce 
+        como números a los números enteros, decimales, fechas y horas. Es decir, que pueden 
+        ser utilizados en operaciones de cálculo.</p>
+    <h2 id="seccion3">operaciones de calculo en excel</h2>
+    <p>Para Excel, una fórmula es una ecuación que nos permite realizar cálculos con los valores que 
+        tenemos ingresados en la hoja de cálculo. Para que Excel identifique que estamos solicitando 
+        que realice un cálculo, toda fórmula debe comenzar con el signo = (igual).</p>
+    <p>Para relacionar en una fórmula los distintos valores que vamos a utilizar en un cálculo, tenemos 
+        que usar operadores. Los operadores básicos de Excel son:</p>
+    <p> (+ SUMA)           (- RESTA)             (* MULTIPLICACIÓN)             (/ DIVISIÓN) </p>
+    <p>En una fórmula podemos usar valores constantes, como por ejemplo, =5+2. El resultado será, 
+        por supuesto, 7; sin embargo, si tuviéramos que cambiar esos valores, el resultado será siempre 
+        7. En cambio, si en la fórmula utilizamos referencias a las celdas que contienen los valores, el 
+        resultado se modificará automáticamente cada vez que cambiemos alguno o ambos valores. Por 
+        ejemplo, si en las celdas A1 y B1 ingresamos valores constantes y los utilizamos en una 
+        fórmula para calcular la suma, podemos escribir =A1+B1 y de este modo, si modificamos 
+        cualquiera de esos valores, el resultado se ajustará automáticamente a los valores que 
+        encuentre en las celdas a las que se hace referencia en la fórmula</p>
+        <img src="exeling.png">
+    <h2 id="seccion4">calculos combinados</h2>
+    <p>Cuando en una misma fórmula tenemos que realizar diferentes tipos de cálculo, Excel resolverá 
+        las operaciones dentro de la fórmula con un determinado orden de prioridad, siguiendo el criterio 
+        matemático de separación en términos. De este modo, el resultado de =3+4+5/3 es 8,67 que 
+        resulta de:</p>
+    <img src="img3.png">
+    <p>Si necesitamos obtener otro tipo de resultado, podemos introducir paréntesis en la fórmula, para 
+        indicarle a Excel que primero debe realizar los cálculos que se encuentran dentro de ellos. De 
+        este modo, el resultado de =(3+4+5)/3 es 4, que resulta de:</p>
+    <img src="img4.png">
+    <h2 id="seccion5">Orden de prioridad</h2>
+    <p>El orden de prioridad que aplica Excel para realizar los cálculos básicos que encuentra en una 
+        misma fórmula es:</p>
+    <p>1º) Cálculos entre paréntesis</p>
+    <p>2º) Multiplicación y división</p>
+    <p>3º) Suma y resta</p>
+    <br>
+    <h2 id="seccion6">Ejercicios de calculos</h2>
+    <img src="EJerc.png">
+    <h2>Referencias relativas y absolutas</h2>
+    <h2>referencia relativa</h2>
+    <p>Una referencia relativa en una fórmula, como A1, se basa en la posición relativa de la celda 
+        que contiene la fórmula, de tal manera que si cambia la posición de la celda que contiene la 
+        fórmula, se cambia la referencia. Si se copia la fórmula en filas o columnas, la referencia se 
+        ajusta automáticamente.</p>
+    <img src="img5.png">
+    <h2 id="seccion7">Referencia absoluta</h2>
+    <p>Una referencia absoluta de celda en una fórmula, como $A$1, siempre hace referencia a una 
+    celda en una ubicación específica. Si cambia la posición de la celda que contiene la fórmula, la 
+    referencia absoluta permanece invariable. Si se copia la fórmula en filas o columnas, la 
+    referencia absoluta no se ajusta.</p>
+    <img src="img6.png">
+    <h2 id="seccion8">Formatos</h2>
+    <p>Excel permite darle distintos formatos (estilos) a nuestros datos, para poder presentarlos mejor. Algunos de esos formatos son similares al procesador de textos Word y otros son específicos de este 
+    programa.</p>
+    <img src="img7.png">
+    <p>Todas las opciones para trabar con formatos esta en la pestaña de inicio.</p>
+    <img src="img8.png">
+    <h2 id="seccion9">Formato condicional</h2>
+    <p>Un formato condicional cambia el aspecto de un rango basandose en una condicion. Si se cumple la condicion el aspecto del rango de celda se cambiara al deseado de lo contrario el rango de celdas se quedara tal como esta.</p>
+    <img src="img9.png">
+    <h2 id="seccion10">FUNCIONES</h2>
+    <P>En excel, una funcion es una formula que usa palabras específicas en una estructura determinada. Se usa para facilitar los calculos.</P>
+    <p>Existen muchos tipos de funciones de excel, para realizar distintos tipos de calculos, pero todas tienen la misma estructura.</p>
+    <img src="img10.png">
+    <p>El argumento en una funcion es donde es el lugar de aplicacion de la misma, puede ser un rango de celdas, comparaciones de celdas, valores, textos, otras funciones, dependiendo del tipo de funcion o situacion de aplicacion.</p>
+    <p>Las funciones se pueden clasificar por categorías: Fecha, Matemáticas, Estadísticas, Lógicas, Financieras, etc.</p>
+    <h3><p>Algunas funciones no usan argumentos, Algunas pueden ser:</p></h3>
+    <ul>
+        <li>=HOY() --->devuelve la fecha actual (del sistema)</li>
+        <br>
+        <li>=AHORA() ---> devuelve la fecha y la hora actuales (del sistema)</li>
+    </ul>
+    <h3><p>Otras Funciones pueden tener de argumento un rango de celdas, algunas pueden ser:</p></h3>
+    <ul>
+        <li>=SUMA(A1:B15) ---> suma TODOS los valores que se encuentran en las celdas especificadas en 
+            el rango.</li>
+        <br>
+        <li>=SUMA(A1;B15) ---> suma SOLO los valores que se encuentran en las dos celdas especificadas.</li>
+        <br>
+        <li>=PROMEDIO(A1:B15) ---> calcula el promedio de las celdas especificadas en el rango.</li>
+        <br>
+        <li>=MAX(A1:B15) ---> devuelve el MAYOR valor numérico que encuentra en el rango especificado.</li>
+        <br>
+        <li>=MIN(A1:B15) ---> devuelve el MENOR valor numérico que encuentra en el rango especificado.</li>
+    </ul>
+    <h2>Funciones para contar datos</h2>
+    <p>En Excel encontramos un grupo de funciones que se utilizan para contar datos, es decir, la 
+        cantidad de celdas que contienen determinados tipos de datos.</p>
+    <h3>Estas funciones son:</h3>
+    <ul>
+        <li>=SUMA(A1:A20) ---> Se usa para contar la cantidad de celdas que contienen datos numericos:</li>
+        <br>
+        <li>=CONTARA(A1:A20) ---> Se usa para contar la cantidad de celdas que contienen datos alfa numericos(letras, simbolos, numeros, cualquier tipo de caracter) dicho de otra manera se usa para saber la cantidad de celdas que no estan vacias.</li>
+        <br>
+        <li>=CONTAR.BLANCO(A1:A20) ---> Se usa para saber la cantidad de celdas en "blanco", es decir, que estan vacias.</li>
+        <br>
+        <li>=CONTAR.SI(A1:A20;">=7") ---> Se usa para contar las celdas que cumplen con cierto requisito, es decir, si se cumple condicion se contara de otra manera no lo contara.</li>
+        <img src="img11.png">
+    </ul>
+    <h2>Funciones Logicas: SI</h2>
+    <p>La funcion SI es una funcion logica, tal como su nombre indica, implica condicionales. Es decir que frente a la situacion dada(condicion) apareceran dos opciones posibles:</p>
+    <ul>
+        <li>si se cumple la condición, la función debe devolver algo (un número o una palabra)</li>
+        <br>
+        <li>si no se cumple la condición, la función debe devolver otra cosa (un número o una 
+            palabra.</li>
+    </ul>
+    <img src="img12.png">
+    <h2>Funciones anidadas</h2>
+    <p>Muchas veces, tendremos que utilizar varias funcioes, una dentro de la otra. Cuando metemos una funcion dentro de otra, tenemos una funcion anidada. Las funciones que “metemos dentro” de otra función actúan como argumentos de la función principal</p>
+    <img src="img13.png">
+    <h2 id="seccion11" >Funciones Logicas: Y/O</h2>
+    <H3>Funcion Y</H3>
+    <p>La función Y devuelve VERDADERO si se verifican todas las condiciones planteadas en su 
+        argumento. Si se verifica una sola de las condiciones o ninguna, devuelve FALSO.</p>
+    <p>Ejemplo:</p>
+    <p>Para aprobar un curso los alumnos deben considerar dos variables:</p>
+    <ul>
+        <li>que el % de inasistencias sea menor o igual a 25</li>
+        <br>
+        <li>que la nota obtenida sea mayor o igual a 4</li>
+    </ul>
+    <img src="img14.png">
+    <p>=Y(B2<=25;C2>=4)</p>
+    <h3>Funcion O</h3>
+    <p>La función O devuelve VERDADERO si se verifica una sola de las condiciones planteadas en su 
+        argumento. Si no se verifica ninguna condición, devuelve FALSO.</p>
+    <img src="img15.png">
+    <p>=O(B2<=25;C2>=4)</p>
+    <br>
+    <p>Las funciones Y-O se usan anidadas a la funcion SI, para obtener un resultado con sentido.</p>
+    <img src="img16.png">
+    <p>La función Y y la función O se utilizan como condición en el argumento de la función SI:</p>
+    <ul>
+        <li>=SI(Y(B8<=25;C8>=4);"APROBADO";"DESAPROBADO")</li>
+        <br>
+        <li>=SI(O(B8<=25;C8>=4);"APROBADO";"DESAPROBADO")</li>
+    </ul>
+    <h2 id="seccion12">Funciones de busqueda</h2>
+    <h3>Funcion BUSCARV</h3>
+    <P>La funcion BUSCARV relaciona dos tablas da datos, estableciendo una correspondencia entre las mismas. Busca un valor especifico en una columna de una tabla y devuelve, en la misma fila, un valor de otra columna de otra tabla, denominada Matriz de datos.</P>
+    <p>NOTA: La letra V del nombre de la funcion significa VERTICAL, es decir, busca los datos que se encuentran en columnas.</p>
+    <p>Ejemplo:</p>
+    <img src="img17.png">
+    <img src="img18.png">
+    <img src="img19.png">
+</body>
+</html>
